@@ -1,9 +1,9 @@
 clear
 
 echo instagram/byunussluemre
-     github.com/YunusEmre21
+echo github.com/YunusEmre21
      
-echo [1] Termux Güncelle
+echo [1] Termux Güncelle         [2]Şifreleme
 
 
 
@@ -31,4 +31,9 @@ clear
 
 echo kurulum bitti
 sleep 2
-     
+
+if [[ $islem == 2 || $islem == 2 ]]; then
+python hasholuşturma.py
+clear
+
+sleep 2
