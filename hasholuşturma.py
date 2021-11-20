@@ -1,42 +1,42 @@
 import hashlib
-from termcolor import colored
+
 
 Karaktergirin = input("Karakter Giriniz:  ")
-print(colored(" <<<<<<<< Md5 >>>>>>>> ", "blue"))
+print(colored(" <<<<<<<< Md5 >>>>>>>> "))
 
 md5 = hashlib.md5()
 md5.update(Karaktergirin.encode())
-print(colored(md5.hexdigest(), "green"))
+print(md5.hexdigest())
 
-print(colored(" <<<<<<<< SHA1 >>>>>>>> ", "blue"))
+print(" <<<<<<<< SHA1 >>>>>>>> ")
 
 sha1 = hashlib.sha1()
 sha1.update(Karaktergirin.encode())
-print(colored(sha1.hexdigest(), "green"))
+print(sha1.hexdigest())
 
-print(colored(" <<<<<<<< SHA224 >>>>>>>> ", "blue"))
+print(" <<<<<<<< SHA224 >>>>>>>> ")
 
 sha224 = hashlib.sha224()
 sha224.update(Karaktergirin.encode())
-print(colored(sha224.hexdigest(), "green"))
+print(sha224.hexdigest())
 
-print(colored(" <<<<<<<< SHA256 >>>>>>>> ", "blue"))
+print(" <<<<<<<< SHA256 >>>>>>>> ")
 
 sha256 = hashlib.sha256()
 sha256.update(Karaktergirin.encode())
-print(colored(sha256.hexdigest(), "green"))
+print(sha256.hexdigest())
 
-print(colored(" <<<<<<<< SHA384 >>>>>>>> ", "blue"))
+print(" <<<<<<<< SHA384 >>>>>>>> ")
 
 sha384 = hashlib.sha384()
 sha384.update(Karaktergirin.encode())
-print(colored(sha384.hexdigest(), "green"))
+print(sha384.hexdigest())
 
-print(colored(" <<<<<<<< SHA512 >>>>>>>> ", "blue"))
+print(" <<<<<<<< SHA512 >>>>>>>> ")
 
 sha512 = hashlib.sha512()
 sha512.update(Karaktergirin.encode())
-print(colored(sha512.hexdigest(), "green"))
+print(sha512.hexdigest())
 
 
 
