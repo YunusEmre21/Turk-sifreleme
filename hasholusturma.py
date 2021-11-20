@@ -2,7 +2,7 @@ import hashlib
 
 
 Karaktergirin = input("Karakter Giriniz:  ")
-print(colored(" <<<<<<<< Md5 >>>>>>>> "))
+print(" <<<<<<<< Md5 >>>>>>>> "))
 
 md5 = hashlib.md5()
 md5.update(Karaktergirin.encode())
