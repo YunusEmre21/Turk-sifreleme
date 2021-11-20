@@ -3,7 +3,9 @@ clear
 echo instagram/byunussluemre
 echo github.com/YunusEmre21
      
-echo [1] Termux Güncelle         [2]Şifreleme
+echo-e "\033[32[1] Termux Güncelle\033[0m"              "\033[32[2] Şifreleme\033[0m"
+
+             
 
 
 
@@ -34,6 +36,6 @@ sleep 2
 
 if [[ $islem == 2 || $islem == 2 ]]; then
 python hasholuşturma.py
-clear
-
 sleep 2
+
+
