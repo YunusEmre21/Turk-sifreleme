@@ -37,7 +37,10 @@ echo kurulum bitti
 sleep 2
 
 if [[ $islem == 2 || $islem == 2 ]]; then
-cd hasholuşturma.py
+ 
+
+
+echo hasholuşturma.py
 
 
 
