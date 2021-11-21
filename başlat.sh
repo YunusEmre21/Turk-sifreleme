@@ -5,7 +5,7 @@ clear                                                                           
 echo -e "\033[32minstagram/byunussluemre\033[0m"
 echo -e "\033[32mgithub.com/YunusEmre21\033[0m"
      
-echo -e "\033[32[1] Termux Güncelle\033[0m"              "\033[32[2] Şifreleme\033[0m"
+echo -e "\033[32[1] Termux Güncelle\033[0m"  "\033[32[2] Şifreleme\033[0m"
 
              
 
@@ -37,7 +37,7 @@ echo kurulum bitti
 sleep 2
 
 if [[ $islem == 2 || $islem == 2 ]]; then
-cd şifreleme/hasholuşturma.py
+cd hasholuşturma.py
 
 
 
